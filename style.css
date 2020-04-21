@@ -1,3 +1,8 @@
+body {
+	position: relative;
+	font-family: "Roboto Condensed", sans-serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -12,7 +17,6 @@ a:hover {
   height: 95px;
   background-color: #f72210;
   color: #fff;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .top-nav #nav-logo {
@@ -41,7 +45,6 @@ a:hover {
 	list-style: none;
 	font-size: 1rem;
 	color: #000;
-	font-family: "Roboto Condensed", sans-serif;
 	font-weight: bold;
 	line-height: 28px;
 	border-bottom: 2px solid #f4f5f6;
@@ -77,6 +80,39 @@ a:hover {
 	border-left: 12px solid #fff;
 }
 
+.header {
+	font-size: 15px;
+	font-weight: bold;
+	color: rgba(3, 3, 3, 0.4);
+}
+
+.f-s img {
+	max-width: 100%;
+	height: auto;
+}
+
+.f-s h3 {
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #000;
+}
+
+.f-s a:hover {
+	text-decoration: underline #f72210;
+}
+
+.f-s p {
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#t-s-1 {
+	max-width: 100%;
+	max-height: 320px;
+}
+
 /* Media-queries */
 
 @media screen and (max-width: 1023px) {
@@ -87,5 +123,6 @@ a:hover {
   .top-nav #nav-logo {
     width: 131px;
     height: 20px;
-  }
+	}
+	
 }
