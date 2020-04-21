@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.top-nav {
+  height: 95px;
+  background-color: #f72210;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.top-nav #nav-logo {
+  width: auto;
+  height: auto;
+}
+
+.top-nav ul {
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+}
+
+.top-nav .fa-bars {
+  font-size: 25px;
+  color: #fb9894;
+}
+
+.top-nav #subscribe {
+  height: 26px;
+  width: 128px;
+  background-color: #fff;
+  color: #f72210;
+  padding: 6px 3px;
+}
+
+.bottom-nav {
+	list-style: none;
+	font-size: 1rem;
+	color: #000;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: bold;
+	line-height: 28px;
+	border-bottom: 2px solid #f4f5f6;
+	padding-left: 0;
+	padding-right: 100px;
+}
+
+.bottom-nav li {
+	flex-grow: 1;
+	border-left: 2px solid #f4f5f6;
+	text-align: center;
+}
+
+.bottom-nav li:hover {
+	color: #f72210;
+}
+
+.bottom-nav input {
+	border: 0;
+	padding-left: 20px;
+	width: 70px;
+	height: inherit;
+}
+
+.floated {
+	position: absolute;
+	right: 0;
+	top: 95px;
+	width: 78px;
+	height: 13px;
+	background-color: #f72210;
+	border-top: 13px solid #f72210;
+	border-left: 12px solid #fff;
+}
+
+/* Media-queries */
+
+@media screen and (max-width: 1023px) {
+  .top-nav {
+    height: 50px;
+  }
+
+  .top-nav #nav-logo {
+    width: 131px;
+    height: 20px;
+  }
+}
