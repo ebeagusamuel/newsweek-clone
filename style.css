@@ -2,6 +2,15 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -85,19 +94,22 @@ a:hover {
   color: rgba(3, 3, 3, 0.4);
 }
 
-.f-s img {
+.f-s img,
+.opinion-div4 img {
   max-width: 100%;
   height: auto;
 }
 
-.f-s h3 {
+.f-s h3,
+.opinion-div4 h3 {
   font-size: 22px;
   line-height: 24px;
   font-weight: 600;
   color: #000;
 }
 
-.f-s a:hover {
+.f-s a:hover,
+.opinion-div4 a:hover {
   text-decoration: underline #f72210;
 }
 
@@ -107,43 +119,156 @@ a:hover {
   color: #333;
 }
 
+.f-red {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+}
+
+.f-blue {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #3581f4;
+}
+
+.f-black {
+  padding: 3px 10px;
+  font-size: 10px;
+  background-color: #c2d4d7;
+  color: #272727;
+}
+
 #t-s-1 {
+  width: 574px;
   max-width: 100%;
   max-height: 320px;
 }
 
 .heroes img {
-	max-width: 100%;
-	max-height: 155.39px;
+  max-width: 100%;
+  max-height: 155.39px;
 }
 
 .heroes h3 {
-	font-size: 20px;
-	font-weight: 500;
-	color: #272727;
-	font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #272727;
+  font-family: 'Lora', serif;
 }
 
 .heroes p {
-	font-size: 15px;
-	color: rgba(39, 39, 39, 0.5);
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .m-s h4 {
-	font-size: 15px;
-	color: #000;
-	font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
 }
 
-.m-s h4:hover {
-	text-decoration: underline #f72210;
+.m-s a:hover {
+  text-decoration: underline #f72210;
 }
 
 .m-s p {
-	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
-	line-height: 18px;
-	color: #333;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  color: #333;
+}
+
+.opinion-div1 img {
+  max-width: 63px;
+  max-height: 63px;
+}
+
+.opinion-div1 h4 {
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.opinion-div1 a:hover {
+  color: #f72210;
+}
+
+.opinion-div1 p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #555;
+}
+
+.opinion-div2 img {
+  max-width: 100px;
+  max-height: 150px;
+}
+
+.opinion-div2 h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+.bt1 {
+  border-top: 4px solid #f92859;
+}
+
+.bt2 {
+  border-top: 5px double grey;
+}
+
+.bt3 {
+  border-top: 4px solid #1c87fb;
+}
+
+.opinion-div2 h5 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+}
+
+.opinion-div2 .small-img {
+  position: absolute;
+  bottom: -29px;
+  right: 5px;
+  max-width: 63px;
+  max-height: 63px;
+}
+
+.debate-md-div {
+  position: relative;
+}
+
+.vs {
+  max-width: 40px;
+  max-height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  text-align: center;
+  margin: 40px auto 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.opinion-div3 h4 {
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+}
+
+.opinion-div3 h4:hover {
+  color: #f72210;
 }
 
 /* Media-queries */
@@ -160,12 +285,12 @@ a:hover {
 }
 
 @media screen and (max-width: 550px) {
-	.h-c img {
-		width: 400px;
-		max-height: 350px;
-	}
+  .h-c img {
+    width: 400px;
+    max-height: 350px;
+  }
 
-	.heroes {
-		margin-left: 10px;
-	}
+  .heroes {
+    margin-left: 10px;
+  }
 }
