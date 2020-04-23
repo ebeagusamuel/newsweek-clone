@@ -108,6 +108,12 @@ a:hover {
   color: #000;
 }
 
+.mag-h a {
+  font: 13px;
+  font-weight: bold;
+  color: #f72210;
+}
+
 .f-s a:hover,
 .opinion-div4 a:hover {
   text-decoration: underline #f72210;
@@ -267,8 +273,59 @@ a:hover {
   font-weight: 600;
 }
 
+.mag h4 {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #f4f5f6;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
 .opinion-div3 h4:hover {
   color: #f72210;
+}
+
+.separator-div {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: center;
+}
+
+.mag img {
+  width: 100%;
+  height: auto;
+}
+
+.mag-figc-1 {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  padding: 0 10px;
+  z-index: 1;
+}
+
+.mag-h span,
+#mag-8 {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f72210;
+  color: #fff;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.mag h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 7px;
+}
+
+.mag a:hover {
+  text-decoration: underline #f72210;
 }
 
 /* Media-queries */
