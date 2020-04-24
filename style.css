@@ -1,4 +1,6 @@
+html,
 body {
+  font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -32,12 +34,18 @@ a:hover {
   height: auto;
 }
 
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .top-nav ul {
   font: bold 14px/14px "Roboto Condensed", sans-serif;
 }
 
 .top-nav .fa-bars {
-  font-size: 25px;
+  font-size: 1.563rem;
   color: #fb9894;
 }
 
@@ -46,7 +54,7 @@ a:hover {
   width: 128px;
   background-color: #fff;
   color: #f72210;
-  padding: 6px 3px;
+  padding: 0.375em 0.1875em;
 }
 
 .bottom-nav {
@@ -57,7 +65,12 @@ a:hover {
   line-height: 28px;
   border-bottom: 2px solid #f4f5f6;
   padding-left: 0;
-  padding-right: 100px;
+  padding-right: 6.25em;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 0.4375em;
 }
 
 .bottom-nav li {
@@ -72,7 +85,7 @@ a:hover {
 
 .bottom-nav input {
   border: 0;
-  padding-left: 20px;
+  padding-left: 1.25em;
   width: 70px;
   height: inherit;
 }
@@ -89,7 +102,7 @@ a:hover {
 }
 
 .header {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
   color: rgba(3, 3, 3, 0.4);
 }
@@ -102,7 +115,7 @@ a:hover {
 
 .f-s h3,
 .opinion-div4 h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 24px;
   font-weight: 600;
   color: #000;
@@ -114,36 +127,47 @@ a:hover {
   color: #f72210;
 }
 
+.editions a {
+  padding-right: 0.4375em;
+  padding-left: 0.3125em;
+  border-right: 1px solid #c2d4d7;
+}
+
 .f-s a:hover,
 .opinion-div4 a:hover {
   text-decoration: underline #f72210;
 }
 
+footer p {
+  font-size: 0.75rem;
+  color: #666;
+}
+
 .f-s p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
 
 .f-red {
-  padding: 10px;
-  font-size: 15px;
+  padding: 0.625em;
+  font-size: 0.9375rem;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
 }
 
 .f-blue {
-  padding: 10px;
-  font-size: 15px;
+  padding: 0.625em;
+  font-size: 0.9375rem;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.9);
   color: #3581f4;
 }
 
 .f-black {
-  padding: 3px 10px;
-  font-size: 10px;
+  padding: 0.1875em 0.625em;
+  font-size: 0.625rem;
   background-color: #c2d4d7;
   color: #272727;
 }
@@ -160,19 +184,19 @@ a:hover {
 }
 
 .heroes h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   color: #272727;
   font-family: 'Lora', serif;
 }
 
 .heroes p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: rgba(39, 39, 39, 0.5);
 }
 
 .m-s h4 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #000;
   font-weight: 600;
 }
@@ -182,7 +206,7 @@ a:hover {
 }
 
 .m-s p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 18px;
   color: #333;
@@ -194,11 +218,11 @@ a:hover {
 }
 
 .opinion-div1 h4 {
-  font-size: 15.5px;
+  font-size: 0.9375rem;
   font-weight: 700;
   line-height: 20px;
   color: #000;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125em;
 }
 
 .opinion-div1 a:hover {
@@ -206,7 +230,7 @@ a:hover {
 }
 
 .opinion-div1 p {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
   color: #555;
 }
@@ -217,11 +241,11 @@ a:hover {
 }
 
 .opinion-div2 h4 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: #000;
-  margin-top: 10px;
-  margin-left: 7px;
+  margin-top: 0.625em;
+  margin-left: 0.4375em;
 }
 
 .bt1 {
@@ -237,7 +261,7 @@ a:hover {
 }
 
 .opinion-div2 h5 {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #000;
 }
@@ -260,32 +284,32 @@ a:hover {
   background-color: #000;
   color: #d6d6d6;
   text-align: center;
-  margin: 40px auto 18px;
+  margin: 2.5em auto 1.125em;
   border-radius: 50%;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 40px;
   font-weight: bold;
 }
 
 .sub h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #000;
 }
 
 .opinion-div3 h4 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #000;
   font-weight: 600;
 }
 
 .mag h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   background-color: #f4f5f6;
   color: #000;
   text-align: center;
-  padding: 10px;
+  padding: 0.625em;
 }
 
 .opinion-div3 h4:hover {
@@ -293,7 +317,7 @@ a:hover {
 }
 
 .separator-div {
-  font-size: 19px;
+  font-size: 1.188rem;
   font-weight: bold;
   line-height: 19px;
   text-align: center;
@@ -305,29 +329,29 @@ a:hover {
 }
 
 .mag-figc-1 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
-  padding: 0 10px;
+  padding: 0 0.625em;
   z-index: 1;
 }
 
 .mag-h span,
 #mag-8 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   background-color: #f72210;
   color: #fff;
-  padding: 8px;
-  margin-right: 5px;
+  padding: 0.5em;
+  margin-right: 0.3125em;
 }
 
 .mag h5 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: #000;
-  margin-top: 7px;
+  margin-top: 0.4375em;
 }
 
 .mag a:hover {
@@ -335,7 +359,7 @@ a:hover {
 }
 
 .sub-flex-div {
-  padding-bottom: 20px;
+  padding-bottom: 1.25em;
   background-color: #f4f5f6;
 }
 
@@ -355,21 +379,21 @@ a:hover {
 }
 
 .sub-text-div {
-  padding-left: 300px;
+  padding-left: 18.75em;
 }
 
 .sub p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #333;
 }
 
 .sub h6 {
   width: 140px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   color: #fff;
   background-color: #f72210;
-  padding: 10px 10px 10px 12px;
+  padding: 0.625em 0.625em 0.625em 0.75em;
 }
 
 .newsletter img {
@@ -378,16 +402,35 @@ a:hover {
 }
 
 .newsletter-text-div {
-  padding-left: 20px;
+  padding-left: 1.25em;
 }
 
 #news-h6 {
   width: 110px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   color: #fff;
   background-color: #f72210;
-  padding: 10px 10px 10px 12px;
+  padding: 0.625em 0.625em 0.625em 0.75em;
+}
+
+footer i {
+  font-size: 1.438rem;
+  color: grey;
+}
+
+.editions {
+  font-size: 0.875rem;
+  color: #666;
+  line-height: 25px;
+}
+
+.editions label {
+  margin: 0 0.9375em 0 0;
+}
+
+.editions .no-br {
+  border-right: none;
 }
 
 /* Media-queries */
@@ -407,7 +450,7 @@ a:hover {
   }
 
   .newsletter {
-    margin-top: 50px;
+    margin-top: 3.125em;
   }
 }
 
@@ -418,7 +461,7 @@ a:hover {
   }
 
   .heroes {
-    margin-left: 10px;
+    margin-left: 0.625em;
   }
 
   .sub-flex-div,
@@ -428,13 +471,18 @@ a:hover {
   }
 
   .s-img-div {
-    padding-left: 90px;
-    padding-right: 20px;
+    padding-left: 5.625em;
+    padding-right: 1.25em;
     height: 250px;
   }
 
   .sub-text-div {
     padding-left: 0;
+  }
+
+  footer p,
+  footer ul {
+    margin-left: 0.9375em;
   }
 
   .sub h4,
@@ -448,12 +496,20 @@ a:hover {
   }
 
   .newsletter {
-    margin-top: 30px;
+    margin-top: 1.875em;
   }
 
   .newsletter img {
     width: 100%;
     max-width: 395px;
     height: 160px;
+  }
+
+  .editions label {
+    margin: 0 0 0 0.9375em;
+  }
+
+  .editions a {
+    border-right: none;
   }
 }
