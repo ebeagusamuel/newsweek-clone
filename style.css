@@ -482,7 +482,8 @@ footer i {
 
   footer p,
   footer ul {
-    margin-left: 0.9375em;
+		margin-left: 0.9375em;
+		list-style: none;
   }
 
   .sub h4,
