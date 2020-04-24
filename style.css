@@ -69,7 +69,8 @@ footer ul {
 }
 
 footer li {
-  display: inline-block;
+	display: inline-block;
+	list-style: none;
   margin-right: 0.4375em;
 }
 
