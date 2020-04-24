@@ -69,8 +69,8 @@ footer ul {
 }
 
 footer li {
-	display: inline-block;
-	list-style: none;
+  display: inline-block;
+  list-style: none;
   margin-right: 0.4375em;
 }
 
@@ -483,8 +483,8 @@ footer i {
 
   footer p,
   footer ul {
-		margin-left: 0.9375em;
-		list-style: none;
+    margin-left: 0.9375em;
+    list-style: none;
   }
 
   .sub h4,
