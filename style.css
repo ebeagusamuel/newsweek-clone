@@ -1,3 +1,7 @@
+:root {
+  --main-color: #f72210;
+}
+
 html,
 body {
   font-size: 16px;
@@ -25,7 +29,7 @@ a:hover {
 
 .top-nav {
   height: 95px;
-  background-color: #f72210;
+  background-color: var(--main-color);
   color: #fff;
 }
 
@@ -53,7 +57,7 @@ footer ul {
   height: 26px;
   width: 128px;
   background-color: #fff;
-  color: #f72210;
+  color: var(--main-color);
   padding: 0.375em 0.1875em;
 }
 
@@ -81,7 +85,7 @@ footer li {
 }
 
 .bottom-nav li:hover {
-  color: #f72210;
+  color: var(--main-color);
 }
 
 .bottom-nav input {
@@ -97,8 +101,8 @@ footer li {
   top: 95px;
   width: 78px;
   height: 13px;
-  background-color: #f72210;
-  border-top: 13px solid #f72210;
+  background-color: var(--main-color);
+  border-top: 13px solid var(--main-color);
   border-left: 12px solid #fff;
 }
 
@@ -125,7 +129,7 @@ footer li {
 .mag-h a {
   font: 13px;
   font-weight: bold;
-  color: #f72210;
+  color: var(--main-color);
 }
 
 .editions a {
@@ -136,7 +140,7 @@ footer li {
 
 .f-s a:hover,
 .opinion-div4 a:hover {
-  text-decoration: underline #f72210;
+  text-decoration: underline var(--main-color);
 }
 
 footer p {
@@ -155,7 +159,7 @@ footer p {
   font-size: 0.9375rem;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.9);
-  color: #f72210;
+  color: var(--main-color);
 }
 
 .f-blue {
@@ -203,7 +207,7 @@ footer p {
 }
 
 .m-s a:hover {
-  text-decoration: underline #f72210;
+  text-decoration: underline var(--main-color);
 }
 
 .m-s p {
@@ -227,7 +231,7 @@ footer p {
 }
 
 .opinion-div1 a:hover {
-  color: #f72210;
+  color: var(--main-color);
 }
 
 .opinion-div1 p {
@@ -314,7 +318,7 @@ footer p {
 }
 
 .opinion-div3 h4:hover {
-  color: #f72210;
+  color: var(--main-color);
 }
 
 .separator-div {
@@ -333,7 +337,7 @@ footer p {
   font-size: 0.9375rem;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.9);
-  color: #f72210;
+  color: var(--main-color);
   padding: 0 0.625em;
   z-index: 1;
 }
@@ -342,7 +346,7 @@ footer p {
 #mag-8 {
   font-size: 0.875rem;
   font-weight: bold;
-  background-color: #f72210;
+  background-color: var(--main-color);
   color: #fff;
   padding: 0.5em;
   margin-right: 0.3125em;
@@ -356,7 +360,7 @@ footer p {
 }
 
 .mag a:hover {
-  text-decoration: underline #f72210;
+  text-decoration: underline var(--main-color);
 }
 
 .sub-flex-div {
@@ -393,7 +397,7 @@ footer p {
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
-  background-color: #f72210;
+  background-color: var(--main-color);
   padding: 0.625em 0.625em 0.625em 0.75em;
 }
 
@@ -411,7 +415,7 @@ footer p {
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
-  background-color: #f72210;
+  background-color: var(--main-color);
   padding: 0.625em 0.625em 0.625em 0.75em;
 }
 
