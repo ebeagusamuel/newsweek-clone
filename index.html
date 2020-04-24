@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>newsweek-clone</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="nav-container">
+			<div class="top-nav d-flex justify-content-lg-between align-items-center px-2">
+				<div class="d-none d-sm-flex flex-lg-column order-md-2 order-lg-1 ml-2">
+					<img class="pb-2" id="nav-loc" src="./img/nav-loc.PNG" alt="navloc">
+					<span class="d-sm-none d-md-none d-lg-block">Sat, Apr 18, 2020</span>
+				</div>
+				<div class="order-md-1 order-lg-2">
+					<img id="nav-logo" class="img-responsive" src="./img/nav-logo.PNG" alt="newsweeklogo">
+				</div>
+				<div class="mt-sm-4 mb-sm-2 mb-md-4 mt-lg-4 mb-lg-1 order-md-3 order-lg-3 ml-auto ml-lg-0">
+					<ul class="nav align-items-center">
+						<li class="nav-items pr-2"><a href="#">SIGN IN</a></li>
+						<li class="nav-items pr-2"><a id="subscribe" href="#">SUBSCRIBE <span><i class="fas fa-greater-than"></i></span></a></li>
+						<li class="nav-items d-lg-none"><a href="#"><i class="fas fa-bars"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<ul class="bottom-nav d-none d-lg-flex py-3">
+				<li><a href="#">U.S.</a></li>
+				<li><a href="#">World</a></li>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">Tech & Science</a></li>
+				<li><a href="#">Culture</a></li>
+				<li><a href="#">Newsgeek</a></li>
+				<li><a href="#">Sports</a></li>
+				<li><a href="#">Health</a></li>
+				<li><a href="#">The Debate</a></li>
+				<li><a href="#">Vantage</a></li>
+				<li><a href="#">
+					Weather
+				</a>
+					<input type="text" placeholder="search"/>
+					<i class="fas fa-search"></i>
+				</li>
+			</ul>
+			<span class="d-none d-lg-inline floated"></span>
+		</nav>
+
+		<main class="container-fluid">
+			<div class="row">
+				<div class="mt-3 mt-sm-3 mt-lg-0 col-12 col-lg-9 order-0">
+					<div class="row">
+						<section class="f-s col-sm-5 order-1 order-lg-0">
+							<h2 class="header">FEATURED STORIES</h2>
+							<article>
+								<figure>
+									<img src="./img/featured-stories-1.webp" alt="featured stories">
+									<figcaption><span class="f-red">U.S.</span></figcaption>
+								</figure>
+								<h3><a href="#">
+									Maryland Residents Conduct Caravan Protest Against Governor's Restrictions
+								</a></h3>
+								<p>
+									Facebook group Reopen Maryland organized the protest to tell Governor Larry Hogan to "immediately" resume the state's businesses and schools.
+								</p>
+							</article>
+							<article>
+								<figure>
+									<img src="./img/featured-stories-2.webp" alt="featured stories">
+									<figcaption><span class="f-red">NEWS</span></figcaption>
+								</figure>
+								<h3><a href="#">
+									U.S. Investigates Wuhan Lab Leak Theory, China Researcher Says Allegations 'Malicious'
+								</a></h3>
+								<p>
+									The vice director of the Wuhan Institute of Virology spoke out to defend the Wuhan biosafety lab from allegations the coronavirus was created by the Chinese scientists.
+								</p>
+							</article>
+							<article>
+								<figure>
+									<img src="./img/featured-stories-3.webp" alt="featured stories">
+									<figcaption><span class="f-red">U.S.</span></figcaption>
+								</figure>
+								<h3><a href="#">
+									Pence Confident U.S. Can Reopen with 'Sufficient Amount of Testing'
+								</a></h3>
+								<p>
+									The vice president rejected criticism that there is not enough testing capacity to end lockdowns and reopen the U.S. economy.
+								</p>
+							</article>
+							<article>
+								<figure>
+									<img src="./img/featured-stories-4.webp" alt="featured stories">
+									<figcaption><span class="f-red">U.S.</span></figcaption>
+								</figure>
+								<h3><a href="#">
+									Health Insurers Are Imposing Restrictions on Applications for The Elderly
+								</a></h3>
+								<p>
+									Some insurance providers were suspending new policies for the elderly, according to a report by Reuters.
+								</p>
+							</article>
+							<article>
+								<figure>
+									<img src="./img/featured-stories-5.webp" alt="featured stories">
+									<figcaption><span class="f-red">NEWS</span></figcaption>
+								</figure>
+								<h3><a href="#">
+									Rise in Anti-Muslim Hate Crimes as Islam Wrongly Blamed for Coronavirus
+								</a></h3>
+								<p>
+									Many Muslims in fear things could get worse in the run-up to Ramadan, as far-right groups in the U.K. are accused of exploiting the pandemic online to support their ideology.
+								</p>
+							</article>
+							<article class="border mb-3">
+								<figure>
+									<img src="./img/featured-stories-6.PNG" alt="featured stories">
+									<figcaption><span class="f-blue">SPONSORED INSIGHT</span></figcaption>
+								</figure>
+								<h3 class="px-3"><a href="#">
+									Weathering the Perfect Storm
+								</a></h3>
+								<p class="px-3">
+									COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to cyberattack. Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.
+								</p>
+							</article>
+							<article class="border mb-3">
+								<figure>
+									<img src="./img/featured-stories-7.PNG" alt="featured stories">
+									<figcaption><span class="f-blue">SPONSORED INSIGHT</span></figcaption>
+								</figure>
+								<h3 class="px-3"><a href="#">
+									Who Leads the Field in Dependency Treatment in 2020?
+								</a></h3>
+								<p class="px-3">
+									When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.
+								</p>
+							</article>
+						</section>
+						<div class="order-sm-1 col-sm-7">
+							<div class="row">
+								<section class="f-s mx-2">
+									<h2 class="header">TOP STORY</h2>
+									<article>
+										<figure>
+											<img id="t-s-1" src="./img/top-story-1.webp" alt="top story">
+											<figcaption><span class="f-red">WORLD</span></figcaption>
+										</figure>
+										<h3><a href="#">
+											Kim Jong Un Reported to Have Undergone Heart Surgery
+										</a></h3>
+										<p>
+											Reports say Kim's health conditions were made worse by obesity, stress and heavy smoking.
+										</p>
+									</article>
+								</section>
+								<section class="h-c">
+									<h2 class="header ml-3">HEROES OF THE PANDEMIC</h2>
+									<div class="heroes row mr-2 ml-sm-2">
+										<div class="col-sm-4">
+											<article>
+												<figure>
+													<img src="./img/heroes-of-the-pandemic1.webp" alt="panndemic heroes">
+													<figcaption><span class="f-black">PANDEMIC HEROES</span></figcaption>
+												</figure>
+												<h3><a href="#">
+													Teenagers Shop for the Vulnerable During Coronavirus Emergency
+												</a></h3>
+												<p>
+													"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.
+												</p>
+											</article>
+										</div>
+										<div class="col-sm-4">
+											<article>
+												<figure>
+													<img src="./img/heroes-of-the-pandemic2.webp" alt="panndemic heroes">
+													<figcaption><span class="f-black">PANDEMIC HEROES</span></figcaption>
+												</figure>
+												<h3><a href="#">
+													Tennessee Group Makes Coronavirus Face Masks for Local, International Use
+												</a></h3>
+												<p>
+													"We're not selling anything," Sacco said Tuesday. "Every single bit of this is donation-only or nothing."
+												</p>
+											</article>
+										</div>
+										<div class="col-sm-4">
+											<article>
+												<figure>
+													<img src="./img/heroes-of-the-pandemic3.webp" alt="panndemic heroes">
+													<figcaption><span class="f-black">PANDEMIC HEROES</span></figcaption>
+												</figure>
+												<h3><a href="#">
+													Organizer Helps Rebuild New York's Filipino Community Hit by COVID-19
+												</a></h3>
+												<p>
+													"When this whole thing started what kept me up at night is the possibility of mass casualties in our community," Riya Ortiz told Newsweek.
+												</p>
+											</article>
+										</div>
+									</div>
+								</section>
+								<section class="h-c">
+									<h2 class="header ml-3">CULTURE AND TRAVEL</h2>
+									<div class="heroes row mr-2 ml-sm-2">
+										<div class="col-sm-4">
+											<article>
+												<figure>
+													<img src="./img/culture-and-travel1.webp" alt="panndemic heroes">
+													<figcaption><span class="f-black">Cbd</span></figcaption>
+												</figure>
+												<h3><a href="#">
+													Soothing CBD Gifts for an Anxious Time
+												</a></h3>
+												<p>
+													CBD may be just the thing to make the stress everyone is feeling a little more bearable. We tested more than 25 gift sets that are a timely treat for yourself or someone from whom you are social distancing.
+												</p>
+											</article>
+										</div>
+										<div class="col-sm-4">
+											<article>
+												<figure>
+													<img src="./img/culture-and-travel2.webp" alt="panndemic heroes">
+													<figcaption><span class="f-black">New york</span></figcaption>
+												</figure>
+												<h3><a href="#">
+													The Relief of Uncertainty, Muses One New Yorker
+												</a></h3>
+												<p>
+													In these pestilent days of being a New York City denizen during the age of COVID-19, one travel writer muses on what we can learn from the uncertainty of reality.
+												</p>
+											</article>
+										</div>
+										<div class="col-sm-4">
+											<article>
+												<figure>
+													<img src="./img/culture-and-travel3.webp" alt="panndemic heroes">
+													<figcaption><span class="f-black">Nature</span></figcaption>
+												</figure>
+												<h3><a href="#">
+													Marvel at These 10 Freaks of Nature
+												</a></h3>
+												<p>
+													The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.
+												</p>
+											</article>
+										</div>
+									</div>
+								</section>
+								<section>
+									<h2 class="header ml-3">MORE STORIES</h2><hr class="mx-3"/>
+									<div class="row mx-3 m-s">
+										<div class="col-12">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories1.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														When Can States Start Relaxing Social Distancing? Here are the Projections
+													</a></h4>
+													<p>
+														The Institute for Health Metrics and Evaluation released state-by-state projections that claimed social distancing measures could be relaxed as early as May 4.
+													</p>
+												</div>
+											</article><hr class="mt-2"/>
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories2.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														Georgia Allowing Restaurants, Salons and Gyms To Reopen Later This Week
+													</a></h4>
+													<p>
+														During his latest coronavirus briefing, Georgia Governor Brian Kemp shared a list of businesses permitted to reopen starting April 24, with a second wave scheduled to resume operations three days later.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories3.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														DOJ Clears U.S. Drug Companies to Distribute Hydroxychloroquine as Treatment
+													</a></h4>
+													<p>
+														The Justice Department on Monday cited "extreme urgency" in clearing wholesale U.S. pharmaceutical distributors from legal hurdles in order to provide the controversial anti-malaria drug hydroxychloroquine to COVID-19 patients
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories4.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														Dr. Fauci Says Easing Lockdown Measures Too Soon Will Lead to 'Big Spike'
+													</a></h4>
+													<p>
+														"Unless we get the virus under control, the real recovery economically is not gonna happen," Dr. Anthony Fauci said.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories5.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														Arkansas Prison Represents Almost A Third of State's Coronavirus Cases
+													</a></h4>
+													<p>
+														Nearly a third of Arkansas' confirmed COVID-19 cases have been identified in inmates at Cummins, a prison in Lincoln County.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories6.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														U.S. Fast Tracks Aid to North Korea As COVID-19 Times Test Trump, Kim Ties
+													</a></h4>
+													<p>
+														"The United States has expeditiously facilitated the approval of assistance from U.S. and international aid and health organizations to counter and contain the spread of coronavirus in the DPRK," a State Department spokesperson told Newsweek.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories7.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														AOC Won't Support Proposed Small-Business Relief Bill Over Lack of Funding
+													</a></h4>
+													<p>
+														"Incrementalism is not helpful in this moment...it's like putting a Band-Aid on an enormous wound," Representative Alexandria Ocasio-Cortez said.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories8.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														Rep. Says Governor DeSantis Allowing FL Beaches to Re-Open Is 'Reckless'
+													</a></h4>
+													<p>
+														"We do not have a consistent message and a consistent strategy working with the governors," Representative Donna Shalala said.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories9.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														Poll Shows Young Democratic Voters Don't Think Biden Will Unite Party
+													</a></h4>
+													<p>
+														Despite their reported uncertainty about former Vice President Joe Biden, more young voters said they still supported him over President Donald Trump, the poll showed.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories10.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														Coronavirus Tax Change to Benefit Millionaires, Cost Taxpayers $90 Billion
+													</a></h4>
+													<p>
+														Less than 3 percent of the benefits from the change will go to Americans earning less than $100,000 a year.
+													</p>
+												</div>
+											</article><hr class="mt-1">
+											<article class="d-flex">
+												<figure>
+													<img src="./img/more-stories11.webp" alt="more stories">
+													<figcaption></figcaption>
+												</figure>
+												<div class="ml-3 mr-2">
+													<h4><a href="#">
+														Majority of Michigan Residents Support Whitmer's Coronavirus Response: Poll
+													</a></h4>
+													<p>
+														Only 44 percent of the Michigan survey's respondents approved of President Donald Trump's response to the coronavirus pandemic.
+													</p>
+												</div>
+											</article>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<h2 class="header">OPINION</h2>
+					<div class="opinion-div1">
+						<div class="d-flex">
+							<img src="./img/opinion1.webp" alt="opinion">
+							<div class="ml-3">
+								<h4><a href="#">
+									Trump Is Using His Briefings to Spread Lies. The Media Should Not Let Him
+								</a></h4>
+								<p>
+									BY JULIE HOLLAR
+								</p>
+							</div>
+						</div><hr class="mt-1">
+						<div class="d-flex">
+							<img src="./img/opinion2.webp" alt="opinion">
+							<div class="ml-3">
+								<h4><a href="#">
+									Drugs, Stocks, Stores and…Kentucky Face Masks
+								</a></h4>
+								<p>
+									BY HANK GILMAN
+								</p>
+							</div>
+						</div><hr class="mt-1">
+						<div class="d-flex">
+							<img src="./img/opinion3.webp" alt="opinion">
+							<div class="ml-3">
+								<h4><a href="#">
+									Vote-by-Mail Is Obviously the Best Way to Hold Elections Now
+								</a></h4>
+								<p>
+									BY KATE BROWN
+								</p>
+							</div>
+						</div><hr class="mt-1">
+						<div class="d-flex">
+							<img src="./img/opinion4.webp" alt="opinion">
+							<div class="ml-3">
+								<h4><a href="#">
+									Sanction China? Remember: Sanctions Rarely Succeed—And Often Backfire
+								</a></h4>
+								<p>
+									BY DANIEL R. DEPETRIS
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="opinion-div2">
+						<h2 class="header mt-md-3">THE DEBATE</h2>
+						<div class="d-flex bt1">
+							<img src="./img/debate1.webp" alt="debate">
+							<h4><a href="#">
+								Trump's Right. The WHO Is Not Fit for Purpose
+							</a></h4>
+						</div>
+						<div class="mt-3 bt2 debate-md-div">
+							<h5><a href="#">
+								BY NIGEL FARAGE
+							</a></h5>
+							<img class="small-img" src="./img/debate2.webp" alt="debate">
+						</div>
+						<div class="vs">VS</div>
+						<div class="d-flex bt3">
+							<img src="./img/debate3.webp" alt="debate">
+							<h4><a href="#">
+								Defunding the WHO Mid-Pandemic Is Lunacy
+							</a></h4>
+						</div>
+						<div class="mt-3 bt2 debate-md-div">
+							<h5><a href="#">
+								BY JAMIE METZL
+							</a></h5>
+							<img class="small-img" src="./img/debate4.webp" alt="debate">
+						</div>
+					</div>
+					<div class="opinion-div3">
+						<h2 class="header mt-5">LATEST NEWS</h2>
+						<div>
+							<article class="d-flex">
+								<figure>
+									<img src="./img/latest-news1.webp" alt="more stories">
+									<figcaption></figcaption>
+								</figure>
+								<div class="ml-3 mr-2">
+									<h4><a href="#">
+										Michigan Governor Takes Pay Cut as State Tightens Budget Over Coronavirus
+									</a></h4>
+								</div>
+							</article><hr class="mt-0"/>
+							<article class="d-flex">
+								<figure>
+									<img src="./img/latest-news2.webp" alt="more stories">
+									<figcaption></figcaption>
+								</figure>
+								<div class="ml-3 mr-2">
+									<h4><a href="#">
+										NY Nurses Union Sues State Over Unsafe Coronavirus Working Conditions
+									</a></h4>
+								</div>
+							</article><hr class="mt-0"/>
+							<article class="d-flex">
+								<figure>
+									<img src="./img/latest-news3.webp" alt="more stories">
+									<figcaption></figcaption>
+								</figure>
+								<div class="ml-3 mr-2">
+									<h4><a href="#">
+										Chris Cuomo Emerges from His Basement Quarantine Amid Coronavirus Recovery
+									</a></h4>
+								</div>
+							</article><hr class="mt-0"/>
+							<article class="d-flex">
+								<figure>
+									<img src="./img/latest-news4.webp" alt="more stories">
+									<figcaption></figcaption>
+								</figure>
+								<div class="ml-3 mr-2">
+									<h4><a href="#">
+										Warrant Issued for Pastor That Allegedly Backed Bus Towards Virus Protester
+									</a></h4>
+								</div>
+							</article><hr class="mt-0"/>
+							<article class="d-flex">
+								<figure>
+									<img src="./img/latest-news5.webp" alt="more stories">
+									<figcaption></figcaption>
+								</figure>
+								<div class="ml-3 mr-2">
+									<h4><a href="#">
+										GOP Senator Blasts Facebook for Nixing Posts Promoting Quarantine Protests
+									</a></h4>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="opinion-div4 col-md-5 col-lg-12 mx-auto px-0 px-lg-0">
+						<article class="border mb-3">
+							<figure>
+								<img src="./img/opinion-lastdiv1.jpg" alt="featured stories">
+								<figcaption><span class="f-blue">SPONSORED INSIGHT</span></figcaption>
+							</figure>
+							<h3 class="px-3"><a href="#">
+								What Sets the Leading Liberal Arts Schools Apart?
+							</a></h3>
+							<p class="px-3">
+								There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?
+							</p>
+						</article>
+						<article class="border mb-3">
+							<figure>
+								<img src="./img/opinion-lastdiv2.jpg" alt="featured stories">
+								<figcaption><span class="f-blue">SPONSORED INSIGHT</span></figcaption>
+							</figure>
+							<h3 class="px-3"><a href="#">
+								What Qualities Make a Leading University?
+							</a></h3>
+							<p class="px-3">
+								A Leading University has to have a track record of producing well qualified, gifted and employable candidates. Which schools earn the accolade?
+							</p>
+						</article>
+						<article class="border mb-3">
+							<figure>
+								<img src="./img/opinion-lastdiv3.jpg" alt="featured stories">
+								<figcaption><span class="f-blue">SPONSORED INSIGHT</span></figcaption>
+							</figure>
+							<h3 class="px-3"><a href="#">
+								What Is Your Accounting And Finance Team Missing?
+							</a></h3>
+							<p class="px-3">
+								Have you ever wanted more from your accounting and finance professionals? These three letters can help.
+							</p>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div class="separator-div my-2">
+				<img class="mr-2" src="./img/newsweek-logo-2.PNG" alt="newsweek logo">
+				IN THE MAGAZINE
+			</div><hr>
+			<div class="row mag">
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine1.webp" alt="MAGAZINE">
+						<figcaption class="mag-figc-1">MAY 10 ISSUE</figcaption>
+					</figure>
+					<h4><a href="#">
+						SEE ALL FEATURES >
+					</a></h4>
+				</div>
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine2.webp" alt="MAGAZINE">
+						<figcaption></figcaption>
+					</figure>
+					<div class="mag-h">
+						<span>COVER</span>
+						<a href="#">POLITICS</a>
+					</div>
+					<h5><a href="#">
+						Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules
+					</a></h5>
+				</div>
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine3.webp" alt="MAGAZINE">
+						<figcaption></figcaption>
+					</figure>
+					<div class="mag-h">
+						<span>COVER</span>
+						<a href="#">POLITICS</a>
+					</div>
+					<h5><a href="#">
+						Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And More
+					</a></h5>
+				</div>
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine4.webp" alt="MAGAZINE">
+						<figcaption></figcaption>
+					</figure>
+					<div class="mag-h">
+						<span>FEATURES</span>
+						<a href="#">HEALTH</a>
+					</div>
+					<h5><a href="#">
+						How Doctors are Saving Coronavirus Patients with Innovative New Techniques
+					</a></h5>
+				</div>
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine5.webp" alt="MAGAZINE">
+						<figcaption></figcaption>
+					</figure>
+					<div class="mag-h">
+						<span>PERISCOPE</span>
+						<a href="#">CULTURE</a>
+					</div>
+					<h5><a href="#">
+						Exclusive: How FEMA Missed a Chance to Prepare for Coronavirus Pandemic
+					</a></h5>
+				</div>
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine6.webp" alt="MAGAZINE">
+						<figcaption></figcaption>
+					</figure>
+					<div class="mag-h">
+						<span>DOWNTIME</span>
+						<a href="#">CULTURE</a>
+					</div>
+					<h5><a href="#">
+						Ten Surprising Things We Learned from the Michael Jordan ESPN Documentary
+					</a></h5>
+				</div>
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine7.webp" alt="MAGAZINE">
+						<figcaption></figcaption>
+					</figure>
+					<div class="mag-h">
+						<span>DOWNTIME</span>
+						<a href="#">CULTURE</a>
+					</div>
+					<h5><a href="#">
+						10 Books That Will Transport You All Around the World
+					</a></h5>
+				</div>
+				<div class="col-md-3">
+					<figure>
+						<img src="./img/in-the-magazine8.webp" alt="MAGAZINE">
+						<figcaption id="mag-8">IN FOCUS</figcaption>
+					</figure>
+					<h5><a href="#">
+						FLOATING COMFORT
+					</a></h5>
+				</div>
+			</div>
+			<div class="separator-div my-2">
+				<img class="mr-2" src="./img/newsweek-logo-2.PNG" alt="newsweek logo">
+				EDITOR'S PICK
+			</div><hr>
+			<div class="row editor f-s">
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-1.webp" alt="editor">
+							<figcaption><span class="f-red">U.S.</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Pelosi Tells House Democrats CARES 2 Stimulus Plan Will Reopen Nation
+						</a></h3>
+						<p>
+							In a letter to House Democrats, Speaker Nancy Pelosi said progress was being made on a deal for a fourth coronavirus relief package.
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-2.webp" alt="editor">
+							<figcaption><span class="f-red">U.S.</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Family of Michigan's Youngest COVID-19 Victim Support Lockdown
+						</a></h3>
+						<p>
+							Five-year-old Skylar Herbert died from complications from the virus days after a mass protest against the lockdown took place outside the state capitol building.
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-3.webp" alt="editor">
+							<figcaption><span class="f-red">U.S.</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Some Signs Held By Protesters Against Lockdown Raise Eyebrows
+						</a></h3>
+						<p>
+							Rallies calling for an end to the shutdown have broken out in states including Colorado and Washington.
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-4.webp" alt="editor">
+							<figcaption><span class="f-red">NEWS</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Prince Philip Thanks Workers on the Coronavirus Frontline From Retirement
+						</a></h3>
+						<p>
+							The Duke of Edinburgh has been away from public life for almost three years, but was "moved" to issue a rare statement by the hard work of medics, scientists and key workers.
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-5.webp" alt="editor">
+							<figcaption><span class="f-red">U.S.</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Florida Shop Owner Is Selling Python Skin Face Masks
+						</a></h3>
+						<p>
+							"People are telling me they want to buy 5, 12 of these masks, so I'll definitely be buying snakes from local hunters," said Brian Wood, owner of All American Gator Products.
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-6.webp" alt="editor">
+							<figcaption><span class="f-red">TECH & SCIENCE</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Wolf Reportedly Spotted in Northern France for First Time in Over 100 years
+						</a></h3>
+						<p>
+							A large canine was caught on camera in Normandy. Officials suspect it was a wolf but have not fully confirmed the sighting.
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-7.webp" alt="editor">
+							<figcaption><span class="f-red">WORLD</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Rise in Anti-Muslim Hate Crimes as Islam Wrongly Blamed for Coronavirus
+						</a></h3>
+						<p>
+							Many Muslims in fear things could get worse in the run-up to Ramadan, as far-right groups in the U.K. are accused of exploiting the pandemic online to support their ideology.
+						</p>
+					</article>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<article>
+						<figure>
+							<img src="./img/editor-8.webp" alt="editor">
+							<figcaption><span class="f-red">U.S.</span></figcaption>
+						</figure>
+						<h3><a href="#">
+							Health Insurers Are Imposing Restrictions on Applications for The Elderly
+						</a></h3>
+						<p>
+							Some insurance providers were suspending new policies for the elderly, according to a report by Reuters.
+						</p>
+					</article>
+				</div>
+			</div><hr>
+			<div>
+				<h5 class="font-weight-bold text-danger">U.S.</h5>
+				<div class="row">
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/u.s-1.webp" alt="U.S.">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Trump Says He Told Georgia Governor "It's Too Soon" to Reopen Businesses
+							</a></h3>
+						</article>
+					</div>
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/u.s-2.webp" alt="U.S.">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Nearly Half of Floridians Don't Trust Trump's Coronavirus Information: Poll
+							</a></h3>
+						</article>
+					</div>
+					<div class="opinion-div3 col-md-4">
+						<article class="d-flex">
+							<figure>
+								<img src="./img/u.s-3.webp" alt="U.S.">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Oklahoma Eateries, Gyms and Churches Reopen May 1 with Social Distancing
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/u.s-4.webp" alt="U.S.">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Las Vegas Mayor Says City and Casinos Should Reopen
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/u.s-5.webp" alt="U.S.">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Judge Orders 'Vulnerable' Inmates' Removal From Ohio Prison, Citing Virus
+								</a></h4>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div><hr>
+			<div>
+				<h5 class="font-weight-bold text-danger">World</h5>
+				<div class="row">
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/world-1.webp" alt="world">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Could Continuing Lockdown Be More Deadly than Coronavirus Itself?
+							</a></h3>
+						</article>
+					</div>
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/world-2.webp" alt="world">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								These Countries Have Approved Coronavirus Vaccine Trials in Humans
+							</a></h3>
+						</article>
+					</div>
+					<div class="opinion-div3 col-md-4">
+						<article class="d-flex">
+							<figure>
+								<img src="./img/world-3.webp" alt="world">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									More Americans See China as Major Threat as Coronavirus Outbreak Continues
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/world-4.webp" alt="world">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									China's Airline Passengers Are Returning Quickly to the Skies
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/world-5.webp" alt="world">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									China Says Missouri Coronavirus Lawsuit Is 'Nothing Short of Absurdity'
+								</a></h4>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div><hr>
+			<div>
+				<h5 class="font-weight-bold text-danger">BUSINESS</h5>
+				<div class="row">
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/business-1.webp" alt="business">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Fogo de Chão To Receive $20 Million In Small Business Loan
+							</a></h3>
+						</article>
+					</div>
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/business-2.webp" alt="business">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Low Oil Prices Could Stretch Into May, Analysts Say Following Collapse
+							</a></h3>
+						</article>
+					</div>
+					<div class="opinion-div3 col-md-4">
+						<article class="d-flex">
+							<figure>
+								<img src="./img/business-3.webp" alt="business">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Amazon Staffers Protest Company After 75 Test Positive for Coronavirus
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/business-4.webp" alt="business">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									US Gas Prices Hit Record Lows as Crude Oil Crashes Below $0 For First Time
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/business-5.webp" alt="business">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									U.S. Oil Prices Drop to Lowest in Two Decades as Crude Storage Fills Up
+								</a></h4>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div><hr>
+			<div>
+				<h5 class="font-weight-bold text-danger">Tech & Science</h5>
+				<div class="row">
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/tech&sci-1.webp" alt="tech & science">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Great White Shark Unama'ki Is Heading Into the Open Ocean
+							</a></h3>
+						</article>
+					</div>
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/tech&sci-2.webp" alt="tech & science">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								COVID-19 could cause greatest slump in CO2 emissions since WW2
+							</a></h3>
+						</article>
+					</div>
+					<div class="opinion-div3 col-md-4">
+						<article class="d-flex">
+							<figure>
+								<img src="./img/tech&sci-3.webp" alt="tech & science">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Facebook Fights Coronavirus Misinformation and Charges It Caved to Pressure
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/tech&sci-4.webp" alt="tech & science">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									World at Risk of 'Multiple Famines of Biblical Proportions' Amid COVID-19
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/tech&sci-5.webp" alt="tech & science">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Scientists Create Device That Works Just like the Human Brain
+								</a></h4>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div><hr>
+			<div>
+				<h5 class="font-weight-bold text-danger">Culture</h5>
+				<div class="row">
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/culture-1.webp" alt="culture">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								World Book Day: Free Books and Events to Help Celebrate at Home
+							</a></h3>
+						</article>
+					</div>
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/culture-2.webp" alt="culture">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Why Did Ansel Elgort Pose Nude? There's More to the Story Than Vanity
+							</a></h3>
+						</article>
+					</div>
+					<div class="opinion-div3 col-md-4">
+						<article class="d-flex">
+							<figure>
+								<img src="./img/culture-3.webp" alt="culture">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									People Are Begging Netflix & Other Streamers To Stop Charging
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/culture-4.webp" alt="culture">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									We've Got the Wine to Pair With Your Favorite Streaming Obsessions
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/culture-5.webp" alt="culture">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Save 'Sanditon!' All The Reasons We Need to Save This Charming Romance
+								</a></h4>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div><hr>
+			<div>
+				<h5 class="font-weight-bold text-danger">Sports</h5>
+				<div class="row">
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/sports-1.webp" alt="sports">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Buccaneers Have Rare Opportunity to Accomplish Unseen NFL Feat During 2020
+							</a></h3>
+						</article>
+					</div>
+					<div class="f-s col-md-4">
+						<article>
+							<figure>
+								<img src="./img/sports-2.webp" alt="sports">
+								<figcaption></figcaption>
+							</figure>
+							<h3><a href="#">
+								Triple H Comments on WWE Layoffs
+							</a></h3>
+						</article>
+					</div>
+					<div class="opinion-div3 col-md-4">
+						<article class="d-flex">
+							<figure>
+								<img src="./img/sports-3.webp" alt="sports-3">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									NFL Draft Order 2020: Complete List of First Round Picks
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/sports-4.webp" alt="sports">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Florida Government Asked to Shut Down WWE Television Tapings
+								</a></h4>
+							</div>
+						</article><hr class="mt-0"/>
+						<article class="d-flex">
+							<figure>
+								<img src="./img/sports-5.webp" alt="sports">
+								<figcaption></figcaption>
+							</figure>
+							<div class="ml-3 mr-2">
+								<h4><a href="#">
+									Hakeem Olajuwon and Sam Bowie's Stats and Earnings Compared to MJ
+								</a></h4>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div><hr>
+			<div class="row">
+				<div class="sub col-lg-7">
+					<span class="font-weight-bold text-danger">
+						SUBSCRIBE
+					</span>
+					<div class="d-flex sub-flex-div">
+						<div class="mt-3 ml-3 s-img-div">
+							<img id="sub-image1" src="./img/last-1.jpg" alt="subscribe">
+							<img id="sub-image2" src="./img/last-2.jpg" alt="subscribe">
+						</div>
+						<div class="sub-text-div">
+							<h4>
+								In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+							</h4>
+							<p>
+								All Access + Weekly Delivery.<br>
+								Choose A Membership That's Perfect for You!
+							</p>
+							<h6>SUBSCRIBE ></h6>
+						</div>
+					</div>
+				</div>
+				<div class="newsletter sub col-lg-5">
+					<span class="font-weight-bold text-danger">
+						NEWSLETTER
+					</span>
+					<div class="d-flex newsletter-flex-div">
+						<div>
+							<img src="./img/last-3.jpg" alt="newsletter">
+						</div>
+						<div class="newsletter-text-div"> 
+							<h4>
+								The Starting 5
+							</h4>
+							<p>
+								See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+							</p>
+							<h6 id="news-h6">SIGN UP ></h6>
+						</div>
+					</div>
+				</div>
+			</div><hr>
+			<footer>
+				<div class="d-md-flex align-items-end">
+					<img src="./img/newsweek-logo_0.png" alt="newsweek-logo_0">
+					<p>
+						© 2020 NEWSWEEK
+					</p>
+					<ul class="ml-md-auto">
+						<li><a href="#">
+							<i class="fab fa-facebook-square"></i>
+						</a></li>
+						<li><a href="#">
+							<i class="fab fa-twitter"></i>
+						</a></li>
+						<li><a href="#">
+							<i class="fab fa-instagram"></i>
+						</a></li>
+						<li><a href="#">
+							<i class="fab fa-tumblr"></i>
+						</a></li>
+						<li><a href="#">
+							<i class="fab fa-linkedin-in"></i>
+						</a></li>
+					</ul>
+				</div><hr>
+				<div>
+					<div class="editions mb-2 d-flex align-items-sm-start align-items-md-end">
+						<label>
+							<strong>Editions:</strong>
+						</label>
+						<ul>
+							<li><a href="#">U.S. Edition</a></li>
+							<li><a href="#">日本</a></li>
+							<li><a href="#">Pakistan</a></li>
+							<li><a href="#">Polska</a></li>
+							<li><a class="no-br" href="#">România</a></li>
+						</ul>
+					</div>
+					<div class="d-flex justify-content-start">
+						<ul class="editions d-flex flex-wrap">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Corrections</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Editorial Guidelines</a></li>
+							<li><a href="#">Advertise</a></li>
+							<li><a href="#">Copyright</a></li>
+							<li><a href="#">Terms & conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Cookie Policy</a></li>
+							<li><a href="#">Terms of Sale</a></li>
+							<li><a href="#">Archive</a></li>
+							<li><a href="#">Annoucements</a></li>
+							<li><a class="no-br" href="#">Consent Preferences</a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</main>
+		
+
+			
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>
