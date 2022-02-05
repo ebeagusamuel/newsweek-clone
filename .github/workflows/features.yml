@@ -1,0 +1,22 @@
+name: Features
+on:
+  pull_request:
+    types: [
+      open,
+      synchronize
+    ]
+  workflow_dispatch:
+    inputs:
+      name:
+        required: true
+        type:
+  
+jobs:
+  test:
+    name: Run test
+    runs-on: ubuntu-latest
+    uses: ebeagusamuel/Ruby_Capstone/.github/workflows/features.yml@development
+    with:
+      name: 'Ebeagu Samuel'
+    secrets:
+      PAT: ${{ secrets.PAT }}
