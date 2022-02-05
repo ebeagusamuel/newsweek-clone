@@ -14,7 +14,6 @@ on:
 jobs:
   test:
     name: Run test
-    runs-on: ubuntu-latest
     uses: ebeagusamuel/Ruby_Capstone/.github/workflows/features.yml@development
     with:
       name: 'Ebeagu Samuel'
