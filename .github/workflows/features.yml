@@ -1,58 +1,21 @@
 name: Features
 on:
+  pull_request:
+    types: [
+      open,
+      synchronize
+    ]
   workflow_dispatch:
     inputs:
-      platform_branch:
-        description: 'Platform branch'
-        required: false
-        default: 'master'
-      talent_portal_branch:
-        description: 'Talent Portal branch'
-        required: false
-        default: 'master'
-      billing_branch:
-        description: 'Billing branch'
-        type: string
-        required: false
-        default: 'master'
-      testbox_profile:
-        description: 'Profile of testbox.yml'
-        type: string
+      name:
         required: true
-      cucumber_profile:
-        description: 'Profile of config/cucumber.yml'
-        type: string
-        required: true
-      worker_count:
-        description: 'Number of parallel workers'
-        type: number
-        required: true
-      job_name_prefix:
-        description: 'Prefix of job name'
-        type: string
-        required: true
-      kubernetes_namespaces_basename:
-        description: 'Base name of Kubernetes namespaces'
-        type: string
-        required: true
+        type:
   
 jobs:
   test:
     name: Run test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Display inputs
-        uses:  actions/github-script@v5
-        with:
-          script: |
-            console.log(context.payload.inputs)
-      - name: Set custom ENV
-        run: |
-          echo "TESTBOX_BRANCH_PLATFORM=${{ inputs.platform_branch || github.event.inputs.platform_branch }}" >> $GITHUB_ENV
-          echo "TESTBOX_BRANCH_TALENT_PORTAL=${{ inputs.talent_portal_branch || github.event.inputs.talent_portal_branch }}" >> $GITHUB_ENV
-          echo "TESTBOX_BRANCH_BILLING=${{ inputs.billing_branch || github.event.inputs.billing_branch }}" >> $GITHUB_ENV
-          echo "TESTBOX_PROFILE=${{ inputs.testbox_profile || github.event.inputs.testbox_profile }}" >> $GITHUB_ENV
-          echo "CUCUMBER_PROFILE=${{ inputs.cucumber_profile || github.event.inputs.cucumber_profile }}" >> $GITHUB_ENV
-          echo "WORKER_COUNT=${{ inputs.worker_count || github.event.inputs.worker_count }}" >> $GITHUB_ENV
-          echo "JOB_NAME_PREFIX=${{ inputs.job_name_prefix || github.event.inputs.job_name_prefix }}" >> $GITHUB_ENV
-          echo "KUBERNETES_NAMESPACE_PREFIX=${{ inputs.kubernetes_namespaces_basename || github.event.inputs.kubernetes_namespaces_basename }}" >> $GITHUB_ENV
+    uses: ebeagusamuel/Ruby_Capstone/.github/workflows/features.yml@development
+    with:
+      name: 'Pablo Escobar'
+    secrets:
+      PAT: ${{ secrets.PAT }}
