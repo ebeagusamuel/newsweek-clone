@@ -16,6 +16,6 @@ jobs:
     name: Run test
     uses: ebeagusamuel/Ruby_Capstone/.github/workflows/features.yml@development
     with:
-      name: 'Ebeagu Samuel'
+      name: 'Pablo Escobar'
     secrets:
       PAT: ${{ secrets.PAT }}
